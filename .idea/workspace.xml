@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="updated new2">
-      <change afterPath="$PROJECT_DIR$/templates/includes/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inner-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="create includes for index and contact">
+      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +116,8 @@
       <workItem from="1715624715446" duration="7116000" />
       <workItem from="1715946123184" duration="9452000" />
       <workItem from="1716029460304" duration="7727000" />
-      <workItem from="1716145749019" duration="12753000" />
+      <workItem from="1716145749019" duration="13559000" />
+      <workItem from="1716224028683" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -154,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715946625087</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create includes for index and contact">
+      <option name="closed" value="true" />
+      <created>1716223001557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716223001557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create includes for index and contact">
+      <option name="closed" value="true" />
+      <created>1716223126661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716223126661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +180,7 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated new1" />
     <MESSAGE value="updated new2" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated new2" />
+    <MESSAGE value="create includes for index and contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="create includes for index and contact" />
   </component>
 </project>
