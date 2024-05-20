@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="updated new1">
-      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="updated new2">
+      <change afterPath="$PROJECT_DIR$/templates/includes/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/scripts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/inner-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/env.txt" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/env.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
     &quot;Django Server.djangoProject1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/merve/Desktop/resuma/djangoProject1/djangoProject1&quot;,
@@ -69,6 +72,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\djangoProject1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\templates\includes" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\static\assets" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\static" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\templates" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\media" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +126,9 @@
       <updated>1715260088323</updated>
       <workItem from="1715260089770" duration="7554000" />
       <workItem from="1715624715446" duration="7116000" />
-      <workItem from="1715946123184" duration="336000" />
+      <workItem from="1715946123184" duration="9452000" />
+      <workItem from="1716029460304" duration="7727000" />
+      <workItem from="1716145749019" duration="12753000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -134,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715272619746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated new2">
+      <option name="closed" value="true" />
+      <created>1715946625087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715946625087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="updated new1" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated new1" />
+    <MESSAGE value="updated new2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated new2" />
   </component>
 </project>
