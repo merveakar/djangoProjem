@@ -1,34 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-{% load static %}
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Website{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    {% include 'includes/navbar.html' %}
-</head>
+
+{% include 'includes/head.html' %}
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <!-- Add your header content here -->
-    </header>
+{% include 'includes/navbar.html' %}
 
-    <!-- Main Content Section -->
-    <main>
-        {% block content %}
-        <!-- Content from other templates will be injected here -->
-        {% endblock %}
-    </main>
+<!--================Home Banner Area =================-->
+<section class="home_banner_area">
+    <div class="container box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="banner_content text-center">
 
-    <!-- Footer Section -->
-    <footer>
-        {% include 'includes/footer.html' %}
-    </footer>
 
-    <script src="{% static 'js/main.js' %}"></script>
-    <!-- Add other scripts here -->
+                {% block banner_area %}
+                {% endblock %}
+
+
+                <!--================End Home Banner Area =================-->
+
+                {% block content %}
+
+                {% endblock %}
+
+                {% include 'includes/footer.html' %}
+
+                {% block extra_scripst %}
+                {% endblock %}
+
 </body>
-
 </html>
