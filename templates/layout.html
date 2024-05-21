@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
-{% include 'includes/head.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Website{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% include 'includes/navbar.html' %}
+</head>
+
 <body>
-{% include 'includes/navbar.html' %}
-{% include 'includes/head.html' %}
-{% include 'includes/navbar.html'%}
-<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Add your header content here -->
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        {% block content %}
+        <!-- Content from other templates will be injected here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
+
+    <script src="{% static 'js/main.js' %}"></script>
+    <!-- Add other scripts here -->
+</body>
+
+</html>
