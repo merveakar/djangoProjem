@@ -2,7 +2,6 @@ from pathlib import Path
 import environ
 import sys
 import os
-from core import urls
 
 env = environ.Env()
 environ.Env.read_env()
