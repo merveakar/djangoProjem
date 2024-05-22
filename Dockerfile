@@ -11,11 +11,12 @@ RUN pip install virtualenv && python -m virtualenv /opt/venv
 
 ENV PATH="/opt/venv/bin:$PATH"
 
-ADD ./requirement.txt /tmp/requirements.txt
+ADD ./requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
 COPY . /srv/app
 WORKDIR /srv/app
+
 
 # Run migrations
 RUN python manage.py migrate
