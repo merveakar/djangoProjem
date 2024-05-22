@@ -4,29 +4,24 @@
 {% include 'includes/head.html' %}
 
 <body>
+
 {% include 'includes/navbar.html' %}
 
 <!--================Home Banner Area =================-->
-<section class="home_banner_area">
-    <div class="container box_1620">
-        <div class="banner_inner d-flex align-items-center">
-            <div class="banner_content text-center">
 
+{% block banner_area %}
+{% endblock %}
 
-                {% block banner_area %}
-                {% endblock %}
+<!--================End Home Banner Area =================-->
 
+{% block content %}
 
-                <!--================End Home Banner Area =================-->
+{% endblock %} 
 
-                {% block content %}
+{% include 'includes/footer.html' %}
 
-                {% endblock %}
-
-                {% include 'includes/footer.html' %}
-
-                {% block extra_scripst %}
-                {% endblock %}
+{% block extra_scripts %}
+{% endblock %}
 
 </body>
 </html>
