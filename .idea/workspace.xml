@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="refactor">
+    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="create layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject1/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,12 +46,14 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django Server.djangoProject1.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Resume app.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.app: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/merve/Desktop/resuma/djangoProject1/djangoProject1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/merve/Desktop/resuma/djangoProject1/docker-compose.yml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,14 +68,14 @@
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\djangoProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\media" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\static" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\templates" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\templates\includes" />
-      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\static\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Resume app">
     <configuration name="djangoProject1" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
@@ -81,10 +86,21 @@
         <env name="DJANGO_SETTINGS_MODULE" value="djangoProject1.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (djangoProject1)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="localhost" />
@@ -96,6 +112,44 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Resume app" type="docker-deploy" factoryName="docker-compose.yml" server-name="DockerNew">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="DockerNew">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.djangoProject1" />
+      <item itemvalue="Docker.Resume app" />
+      <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -118,7 +172,9 @@
       <workItem from="1715946123184" duration="9452000" />
       <workItem from="1716029460304" duration="7727000" />
       <workItem from="1716145749019" duration="13559000" />
-      <workItem from="1716224028683" duration="11811000" />
+      <workItem from="1716224028683" duration="19774000" />
+      <workItem from="1716367097930" duration="1704000" />
+      <workItem from="1716369020353" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -200,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716302357426</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create layout">
+      <option name="closed" value="true" />
+      <created>1716305187589</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716305187590</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +289,7 @@
     <MESSAGE value="updated project" />
     <MESSAGE value="use template" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="create layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="create layout" />
   </component>
 </project>
