@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import *
 
 
+
 @admin.register(GeneralSetting)
 class GeneralSettingAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'description', 'parameter']
@@ -10,3 +11,4 @@ class GeneralSettingAdmin(admin.ModelAdmin):
 
     class Meta:
         model = GeneralSetting
+
