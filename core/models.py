@@ -57,7 +57,7 @@ class ImageSetting(models.Model):
         default='',
         verbose_name='Description'
     )
-    updatedd_date = models.DateTimeField(
+    updated_date = models.DateTimeField(
         auto_now=True,
         verbose_name='Updated Date'
 
