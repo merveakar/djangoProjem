@@ -50,6 +50,7 @@ class ImageSetting(models.Model):
         default=None,
         verbose_name='Name',
         help_text='This is variable of general setting',
+        updated_date=models.DateTimeField(auto_now=True)
     )
     description = models.CharField(
         max_length=254,

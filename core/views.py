@@ -10,6 +10,10 @@ def index(request):
     home_banner_description = GeneralSetting.objects.get(name='home_banner_description').parameter
     about_myself_welcome = GeneralSetting.objects.get(name='about_myself_welcome').parameter
     about_myself_footer = GeneralSetting.objects.get(name='about_myself_footer').parameter
+
+
+
+
     context = {
         'site_title': site_title,
         'site_keywords': site_keywords,
