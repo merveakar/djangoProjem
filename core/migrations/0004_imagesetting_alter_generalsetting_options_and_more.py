@@ -43,7 +43,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='generalsetting',
             name='description',
-            field=models.CharField(blank=True, default='', max_length=254, verbose_name='Description'),
+            field=models.CharField(blank=True, default='', max_length=250, verbose_name='Description'),
         ),
         migrations.AlterField(
             model_name='generalsetting',
