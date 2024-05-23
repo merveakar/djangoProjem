@@ -57,7 +57,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='generalsetting',
-            name='updated_date',
+            name='updatedd_date',
             field=models.DateTimeField(auto_now=True, verbose_name='Updated Date'),
         ),
     ]
