@@ -7,7 +7,8 @@
     <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0004_imagesetting_alter_generalsetting_options_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0005_alter_imagesetting_file.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +275,7 @@
       <workItem from="1716367097930" duration="1704000" />
       <workItem from="1716369020353" duration="2345000" />
       <workItem from="1716373285978" duration="34469000" />
-      <workItem from="1716456774529" duration="756000" />
+      <workItem from="1716456774529" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -420,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716456840136</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1716457548831</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716457548831</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

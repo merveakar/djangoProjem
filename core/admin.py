@@ -12,3 +12,4 @@ class GeneralSettingAdmin(admin.ModelAdmin):
     class Meta:
         model = GeneralSetting
 
+
