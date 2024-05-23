@@ -60,7 +60,7 @@ class ImageSetting(models.Model):
     updated_date = models.DateTimeField(
         auto_now=True,
         verbose_name='Updated Date'
-        
+
     )
     created_date = models.DateTimeField(
         auto_now_add=True,
