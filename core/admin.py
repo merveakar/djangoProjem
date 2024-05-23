@@ -1,5 +1,7 @@
 from django.contrib import admin
-from core.models import *
+from .models import *
+
+
 
 @admin.register(GeneralSetting)
 class GeneralSettingAdmin(admin.ModelAdmin):
@@ -8,3 +10,4 @@ class GeneralSettingAdmin(admin.ModelAdmin):
     list_editable = ['description','parameter']
     class Meta:
         model = GeneralSetting
+
