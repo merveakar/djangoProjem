@@ -5,24 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="new commit1">
-      <change afterPath="$PROJECT_DIR$/core/migrations/0003_rename_image_imagesetting_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/home_banner_image.jpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/header_logo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/home_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/home_banner_image" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/header_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/0002_alter_generalsetting_parameter_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject1/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/site_favicon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/header_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/home_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/gmaps.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/gmaps.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/header_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/home_banner_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/me.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/personal-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -98,11 +94,11 @@
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\djangoProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\djangoProject1" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\media\img" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\media\images" />
+      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\djangoProject1" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\static" />
       <recent name="C:\Users\merve\Desktop\resuma\djangoProject1" />
-      <recent name="C:\Users\merve\Desktop\resuma\djangoProject1\media" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Resume app">
@@ -308,7 +304,7 @@
       <workItem from="1716456774529" duration="17830000" />
       <workItem from="1716494759132" duration="112000" />
       <workItem from="1716495542676" duration="34000" />
-      <workItem from="1716522865954" duration="5192000" />
+      <workItem from="1716522865954" duration="8454000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -622,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716492942691</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="new commit1">
+      <option name="closed" value="true" />
+      <created>1716528169297</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716528169297</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,6 +661,17 @@
     <MESSAGE value="new committt" />
     <MESSAGE value="new commit1" />
     <option name="LAST_COMMIT_MESSAGE" value="new commit1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/models.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject1$0001_initial.coverage" NAME="0001_initial Coverage Results" MODIFIED="1716418136597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/migrations" />

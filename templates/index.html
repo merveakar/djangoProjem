@@ -7,22 +7,22 @@
 <section class="home_banner_area">
     <div class="container box_1620">
         <div class="banner_inner d-flex align-items-center">
-             <div class="banner_content ">
+            <div class="banner_content ">
                 <div class="media">
                     <div class="d-flex">
-                        <img src={{home_banner_image.url}} alt="home_banner">
+                        <img src="{%get_media_prefix%}img/me.jpg" alt="">
                     </div>
                     <div class="media-body">
                         <div class="personal_text">
                             <h6>Hello Everybody, I am</h6>
                             <h3>{{ home_banner_name }}</h3>
-                            <h4>J{{ home_banner_title }}</h4>
+                            <h4>{{ home_banner_title }}</h4>
                             <p>{{ home_banner_description }}</p>
                             <ul class="list basic_info">
-                                <li><a href="javascript:void(0)"><i class="lnr lnr-calendar-full"></i> 25th July 2002</a></li>
-                                <li><a href="tel:+905422206614"><i class="lnr lnr-phone-handset"></i>+90 (542) 220 6614</a></li>
-                                <li><a href="mailto:merveakar2562@gmail.com"><i class="lnr lnr-envelope"></i> merveakar2562@gmail.com</a></li>
-                                <li><a href="#"><i class="lnr lnr-home"></i> Ataşehir İstanbul</a></li>
+                                <li><i class="lnr lnr-calendar-full"></i> 25th July 2002</li>
+                                <li><i class="lnr lnr-phone-handset"></i> <a href="tel:+905422206614">+90 (542) 220 6614</a></li>
+                                <li><i class="lnr lnr-envelope"></i> <a href="mailto:merveakar2562@gmail.com">merveakar2562@gmail.com</a></li>
+                                <li><i class="lnr lnr-home"></i> Ataşehir İstanbul</li>
                             </ul>
                             <ul class="list personal_social">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -32,10 +32,11 @@
                         </div>
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
     </div>
 </section>
+
 {% endblock %}
 
 
