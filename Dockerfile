@@ -11,10 +11,10 @@ RUN pip install virtualenv && python -m virtualenv /opt/venv
 
 ENV PATH="/opt/venv/bin:$PATH"
 
-ADD ./requirements.txt /tmp/requirements.txt
+ADD requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
-COPY . /srv/app
+COPY ../djangoProject1 /srv/app
 WORKDIR /srv/app
 
 
