@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="upsdated">
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="472d6761-6c8b-44a1-9ca5-e92c02908042" name="Changes" comment="deneme5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -638,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716544248969</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="deneme5">
+      <option name="closed" value="true" />
+      <created>1716545366099</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1716545366099</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,9 +677,9 @@
     <MESSAGE value="new committ" />
     <MESSAGE value="new committt" />
     <MESSAGE value="new commit1" />
-    <MESSAGE value="deneme5" />
     <MESSAGE value="upsdated" />
-    <option name="LAST_COMMIT_MESSAGE" value="upsdated" />
+    <MESSAGE value="deneme5" />
+    <option name="LAST_COMMIT_MESSAGE" value="deneme5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
